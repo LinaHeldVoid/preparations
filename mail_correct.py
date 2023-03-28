@@ -5,12 +5,6 @@ from email.MIMEText import MIMEText
 from email.MIMEMultipart import MIMEMultipart
 
 
-GMAIL_SMTP = "smtp.gmail.com"
-GMAIL_IMAP = "imap.gmail.com"
-login = 'login@gmail.com'
-password = 'qwerty'
-
-
 class Mail:
 
     def send_message(self, data, login, password):
